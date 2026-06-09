@@ -1,0 +1,17 @@
+{
+  "name": "pos-backend",
+  "version": "1.0.0",
+  "description": "Restaurant POS API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "init-db": "node scripts/init-db.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "mysql2": "^3.11.0"
+  }
+}
